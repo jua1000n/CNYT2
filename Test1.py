@@ -1,5 +1,5 @@
 import unittest
-import lisbre_uni3
+import lib1
 
 class MyTestCase(unittest.TestCase):
     #1. Los experimentos de la canicas con coeficiente booleanos
