@@ -2,6 +2,7 @@ import unittest
 import lisbre_uni3
 
 class MyTestCase(unittest.TestCase):
+    #1. Los experimentos de la canicas con coeficiente booleanos
     def test_accion(self):
         a=[[0,0,0,0,0,0],
            [0,0,0,0,0,0],
@@ -18,6 +19,7 @@ class MyTestCase(unittest.TestCase):
         d=1
         c=[[0], [0], [9], [5], [12], [1]]
         self.assertEqual(lisbre_uni3.canic(a,b,d), c)
+    #2. Experimentos de las múltiples rendijas clásico probabilístico, con más de dos rendijas.
     def test_canic(self):
         a=[[0,0,0,0,0,0,0,0],
            [0,0,0,0,0,0,0,0],
