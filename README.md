@@ -8,7 +8,7 @@ Que cosas necesitas para instalar el software y como instalarlas
 
 Las cosas más básicas para poder usar la librería es tener Python 3.7 instalado en tu ordenador, para poder implementar la librería solo necesita crear una carpeta, guardar la librería con el nombre “ lisbre_uni3.py ”, en el programa que quieras usar la librería tienes que poner “ import lisbre_uni3”. 
  ```python
- import lisbre_uni3
+ import lib2
  ```
 
 # Ejecución de librería 
