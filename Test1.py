@@ -18,7 +18,7 @@ class MyTestCase(unittest.TestCase):
            [10]]
         d=1
         c=[[0], [0], [9], [5], [12], [1]]
-        self.assertEqual(lisbre_uni3.canic(a,b,d), c)
+        self.assertEqual(lib1.canic(a,b,d), c)
     #2. Experimentos de las múltiples rendijas clásico probabilístico, con más de dos rendijas.
     def test_canic(self):
         a=[[0,0,0,0,0,0,0,0],
@@ -39,7 +39,7 @@ class MyTestCase(unittest.TestCase):
            [0]]
         d=2
         c=[[0], [0], [0], [1/6], [1/6], [1/3], [1/6], [1/6],]
-        self.assertEqual(lisbre_uni3.canic(a,b,d), c)
+        self.assertEqual(lib1.canic(a,b,d), c)
 
 if __name__ == '__main__':
     unittest.main()
