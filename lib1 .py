@@ -34,19 +34,27 @@ def multimat(r,i):
                 mat[y][j]=suma(mat[y][j],producto(r[y][z],i[z][j]))
     return mat
 
+def matTrans(r):
+    mat=[]
+    for y in range(len(r[0])):
+        mat.append([])
+        for x in range(len(r)):
+            mat[y].append(r[x][y])
+    return mat
+
 def canic(mat,lis,clic):
     res=mat
     if type(mat[0][0])== int:
-        for i in range(clic):
+        for i in range(clic-1):
             res=multimatin(res,mat)
         return multimatin(res,lis)
     elif type(mat[0][0])== tuple:
-        res=multimat(res,i)
-        for i in range(clic):
-            res=res=multimat(res,mat)
-        lista=[(lis[x][0],0) for x in range(len(lis))]
-        return multimat(res,lista)
-        
+        for i in range(clic-1):
+            res=multimat(res,matTrans(mat))
+
+        return multimat(res,lis)
+
+
         
 
     
