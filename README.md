@@ -34,8 +34,11 @@ En este caso la libreria coje matrices con numeros reales, como  con numeros com
 Las funciones que vamos a encontrar se encuentra: 
 
 - Experimentos con coeficiente booleanos
+La entrada de este son numeros booleanos, en este caso se ingresa la matriz, luego el vector y el numero de clicks que quiere el usuario
 - Experimentos de las múltiples rendijas clásico probabilístico, con más de dos rendijas.
+La entrada de este son numeros reales, en este caso se ingresa la matriz, luego el vector y el numero de clicks que quiere el usuario
 - Experimento de las múltiples rendijas cuántico.
+La entrada de este son numeros complejos, para poder diferenciar el real, del complejo se hace por medio de una ",", en este caso se ingresa la matriz(con numeros complejos), luego el vector(con numeros complejos) y el numero de clicks que quiere el usuario
 
 
 # Pruebas
